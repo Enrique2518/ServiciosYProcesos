@@ -38,3 +38,34 @@ var desigualdad = num1 != num2
 console.log("Igualdad estricta : " + desigualdad)
 var desigualdadEstricta = num1 !== num2
 console.log("Igualdad estricta : " + desigualdadEstricta)
+var menorQue = num1 < num2
+console.log("Menor que : " + menorQue)
+var mayorQue = num1 > num2
+console.log("Mayor que : " + mayorQue)
+
+if(num1 > num2){
+    console.log("El numero " + num1 + " es mayor que el " + num2 + ".")
+}else{
+    console.log("El numero " + num1 + " es menor que el " + num2 + ".")
+}
+
+for (let index = 1; index < 11; index++) {
+    console.log(index)
+}
+
+let nombres = ["Enrique", "Lluis"];
+for (let index = 0; index < nombres.length; index++) {
+    console.log(nombres[index])
+}
+
+var numeroPar = 2
+while (numeroPar <= 20) {
+    console.log(numeroPar);
+    numeroPar += 2;
+}
+
+function suma(a, b) {
+    return a + b;
+}
+
+console.log(suma(5, 3));
